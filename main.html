@@ -3,28 +3,25 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<form action="/actio.php">
-	<input type="text" id="name" placeholder="Name">
-		<input type="text" id="phone" placeholder="Phone Number">
-		<input type="text" id="address" placeholder="Address">
-		<label><br>Have you ever lived with a Dog before?
-			<input type ="checkbox" id="checkbox"value="Have you ever lived with a Dog before?">
-		</label>
-		<select multiple name="dogtype">
-			<option value="jerman"> jerman</option>
-			<option value="bull dog"> bull dog</option>
-			<option value="desi"> desi</option>
-		</select>
-		<input type="submit" id="submit"value="submit">
-	</form>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <form action="/action.php">
+        <input type="text" id="name" name="name" placeholder="Name">
+        <input type="text" id="phone" name="phone" placeholder="Phone Number">
+        <input type="text" id="address" name="address" placeholder="Address">
+        <label><br>Have you ever lived with a Dog before?
+            <input type ="checkbox" id="checkbox" name="livedWithDog" value="yes">
+        </label>
+        <select multiple name="dogType">
+            <option value="jerman"> jerman</option>
+            <option value="bull dog"> bull dog</option>
+            <option value="desi"> desi</option>
+        </select>
+        <input type="submit" id="submit" value="submit">
+    </form>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
